@@ -98,12 +98,12 @@
                     "value": "Trying to obtain version from 8 optional sources ..."
                 },
                 {
-                    "operator": "eq",
-                    "value": "Found Python version \"^3.10\" in pyproject.toml section tool.poetry.dependencies.python"
+                     "operator": "regex",
+                     "value": "Found Python version \"\\^3\\.10\" in pyproject\\.toml section tool\\.poetry\\.dependencies\\.python"
                 },
                 {
                     "operator": "regex",
-                    "value": "Found Python version (^3.10) for Poetry project at \"/.*mixed_pip_poetry.*\""
+                    "value":  
                 },
                 {
                     "operator": "eq",
